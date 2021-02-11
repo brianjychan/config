@@ -1,0 +1,31 @@
+// move to .vscode/settings.json in foam workspace
+{
+  "editor.minimap.enabled": false,
+  "editor.wrappingIndent": "indent",
+  "editor.overviewRulerBorder": false,
+  "editor.lineHeight": 24,
+  "workbench.colorTheme": "Visual Studio Dark",
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "[markdown]": {
+    "editor.quickSuggestions": true
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "assets": true,
+    ".gitignore": true,
+    "_layouts": true,
+    ".vscode": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules": true,
+  },
+  "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
+  "vscodeMarkdownNotes.previewLabelStyling": "label",
+  "editor.quickSuggestions": true, // show suggestions 
+  "editor.quickSuggestionsDelay": 0, // instant show
+  "editor.suggest.showWords": false, // deactivates suggesting words in the doc
+  "editor.wordBasedSuggestions": true, // not sure difference with edito.suggest.showWords 
+  "editor.suggest.showSnippets": false, // deactivates stupid text-based shortcuts like "italic" and "horizontal rule"
+  "editor.suggest.showFiles": true, // this ensures we keep file suggestions for the [[backlinking]]
+}
